@@ -1,0 +1,40 @@
+%%This is a very basic article template.
+%%There is just one section and two subsections.
+\documentclass{article}
+
+\begin{document}
+
+\title{Using OpenFOAM for CFD simulations of the Atmospheric Boundary Layer}
+\author{Thijs Van den Brande}
+\maketitle
+
+\section{Configuration of your Ubuntu12.04 machine}
+Some explenation on installing OpenFOAM and PyFoam on your machine and on using
+emacs for text editing.
+
+\section{Introduction to OpenFOAM}
+Some information on OpenFOAM
+
+\section{General work flow}
+\begin{enumerate}
+  \item Make mesh in GAMBIT, make sure that no two boundary planes have the same
+  name if they don't have the same boundary condition or are an interface. This
+  will result in troubles when merging meshes and stitching the interfaces.
+  \item Convert the GAMBIT mesh to an OpenFOAM mesh:
+  \begin{itemize}
+    \item read approach domain in an OpenFOAM case called 'master'
+    \item read model in an OpenFOAM case called 'slave'
+    \item merge meshes using the mergeMesh command
+    \item adjust the initial conditions in the 0 folder
+    \item stichMeshes
+  \end{itemize}
+  \item Have fun doing ABL simulations
+\end{enumerate}
+\section{Mesh generation}
+credit to the course of B. Blocken
+
+\section{Boundary conditions}
+on the different approach to wall-functions, \ldots
+
+
+\end{document}
