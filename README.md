@@ -15,3 +15,4 @@ Wall function settings:
 * nutkAtmRoughWallFunction: http://foam.sourceforge.net/docs/cpp/a01453.html#details (used in 0/nut)
 * nutURoughWallFunction: http://foam.sourceforge.net/docs/cpp/a01457.html#details (not used)
 * nutkRoughWallFunction: http://foam.sourceforge.net/docs/cpp/a01454.html#details (used in 0/k)
+* epsilonWallFunction: http://foam.sourceforge.net/docs/cpp/a00547.html#details (not used, currently fixed value)
