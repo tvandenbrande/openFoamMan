@@ -18,9 +18,9 @@ PyFoam installation
 To check your installation,in the terminal type:
   ```
   python
-  import PyFoam
-  import PyFoam.FoamInformation
-  print PyFoam.FoamInstallation.foamTutorials()
+  > import PyFoam
+  > import PyFoam.FoamInformation
+  > print PyFoam.FoamInstallation.foamTutorials()
   ```
 
 This command should produce a output showing the openfoam tutorials directory.
