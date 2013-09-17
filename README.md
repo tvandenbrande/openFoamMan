@@ -25,10 +25,15 @@ To check your installation,in the terminal type:
 
 This command should produce a output showing the openfoam tutorials directory.
 
-turbulence modelling
+Settings of the model
 ====================
 
+k-epsilon model:
+
 * realizableKE: http://foam.sourceforge.net/docs/cpp/a01830.html#details
+
+Inlet profile: 
+
 * atmBoundaryLayerInletVelocity: http://foam.sourceforge.net/docs/cpp/a00058.html#details (used in 0/U)
 * atmBoundaryLayerInletEpsilon: http://foam.sourceforge.net/docs/cpp/a00057.html (used in 0/epsilon)
 * urbulentIntensityKineticEnergyInlet http://foam.sourceforge.net/docs/cpp/a02381.html#details (currently not used, constant k now)
@@ -39,3 +44,7 @@ Wall function settings:
 * nutURoughWallFunction: http://foam.sourceforge.net/docs/cpp/a01457.html#details (not used)
 * nutkRoughWallFunction: http://foam.sourceforge.net/docs/cpp/a01454.html#details (used in 0/k)
 * epsilonWallFunction: http://foam.sourceforge.net/docs/cpp/a00547.html#details (not used, currently fixed value)
+
+Details on discretisation:
+
+* OpenFOAM manual: http://www.openfoam.org/docs/user/fvSchemes.php
