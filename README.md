@@ -54,3 +54,6 @@ Eulerian Multiphase models in OpenFOAM
 
 * Kubilay et al. (2013): adjustments to the simple solver
 * twoFaseEulerFoam http://www.tfd.chalmers.se/~hani/kurser/OS_CFD_2008/PraveenPrabhuBaila/Report_twoPhaseEuler.pdf
+* details on programming in OpenFOAM:
+   * code styling guide: http://openfoam.org/contrib/code-style.php
+   * on creating solvers: http://www.openfoam.com/features/creating-solvers.php
