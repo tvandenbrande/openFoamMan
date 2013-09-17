@@ -31,6 +31,7 @@ turbulence modelling
 * realizableKE: http://foam.sourceforge.net/docs/cpp/a01830.html#details
 * atmBoundaryLayerInletVelocity: http://foam.sourceforge.net/docs/cpp/a00058.html#details (used in 0/U)
 * atmBoundaryLayerInletEpsilon: http://foam.sourceforge.net/docs/cpp/a00057.html (used in 0/epsilon)
+* urbulentIntensityKineticEnergyInlet http://foam.sourceforge.net/docs/cpp/a02381.html#details (currently not used, constant k now)
 
 Wall function settings: 
 
