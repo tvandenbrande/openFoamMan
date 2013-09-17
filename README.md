@@ -48,3 +48,9 @@ Wall function settings:
 Details on discretisation:
 
 * OpenFOAM manual: http://www.openfoam.org/docs/user/fvSchemes.php
+
+Eulerian Multiphase models in OpenFOAM
+======================================
+
+* Kubilay et al. (2013): adjustments to the simple solver
+* twoFaseEulerFoam http://www.tfd.chalmers.se/~hani/kurser/OS_CFD_2008/PraveenPrabhuBaila/Report_twoPhaseEuler.pdf
