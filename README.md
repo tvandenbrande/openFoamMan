@@ -58,3 +58,6 @@ Eulerian Multiphase models in OpenFOAM
    * code styling guide: http://openfoam.org/contrib/code-style.php
    * on creating solvers: http://www.openfoam.com/features/creating-solvers.php
    * Using functionobjects, like for example streamLine (http://foam.sourceforge.net/docs/cpp/a07932_source.html)
+* details on the SIMPLE algorithm: http://openfoamwiki.net/index.php/OpenFOAM_guide/The_SIMPLE_algorithm_in_OpenFOAM
+* details on fvc: http://openfoamwiki.net/index.php/Fvc_H
+* details on the fvm/fvc namespace: http://openfoamwiki.net/index.php/Finite_volume_method_(OpenFOAM)
