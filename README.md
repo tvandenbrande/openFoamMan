@@ -37,6 +37,7 @@ Inlet profile:
 * atmBoundaryLayerInletVelocity: http://foam.sourceforge.net/docs/cpp/a00058.html#details (used in 0/U)
 * atmBoundaryLayerInletEpsilon: http://foam.sourceforge.net/docs/cpp/a00057.html (used in 0/epsilon)
 * urbulentIntensityKineticEnergyInlet http://foam.sourceforge.net/docs/cpp/a02381.html#details (currently not used, constant k now)
+* ablWdrInletVelocity: newly defined profile based on atmBoundaryLayerInletVelocity and terminal velocity of droplets.
 
 Wall function settings: 
 
